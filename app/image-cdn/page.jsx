@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { ImageWithSizeOverlay } from './image-with-size-overlay';
-import { ContextAlert } from 'components/context-alert';
-import { Markdown } from 'components/markdown';
+// import { ContextAlert } from 'components/context-alert';
+// import { Markdown } from 'components/markdown';
 import { getNetlifyContext } from 'utils';
 
 export const metadata = {
