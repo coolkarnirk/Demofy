@@ -3,7 +3,7 @@ import React from 'react'
 export default function Hero() {
     return (
         <>
-            <section className="hero-section position-relative">
+            <section className="hero-section position-relative" id='banner'>
                 <div className="hero-content container text-center text-white">
                     <h1 className="hero-title">Invest Smarter, Grow Faster</h1>
                     <p className="hero-subtitle">Track the market trends and make informed decisions effortlessly.</p>

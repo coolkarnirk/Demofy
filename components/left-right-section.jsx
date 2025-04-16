@@ -4,7 +4,16 @@ import Image from 'next/image'
 export default function LeftRightSection() {
     return (
         <>
-            <section className="info-section py-5 mt-5">
+            <section className="info-section py-5 mt-5" id='services'>
+                <div className="container pb-4">
+                    <div className='text-center'>
+                        <h2 className="section-title">Our Services</h2>
+                        <p className="section-description w-75 mx-auto">
+                            Founded by a team of analysts, traders, and tech enthusiasts, our platform was created to make investing in the stock market more accessible to everyone.
+                            We believe in the power of data, education, and simplicity — that's why we built tools that empower investors to make informed decisions with confidence.
+                        </p>
+                    </div>
+                </div>
                 {/* Section 1: Image Left, Content Right */}
                 <div className="info-row container d-flex flex-wrap align-items-center pt-5 pb-5 mb-5">
                     <div className="col-md-6 pb-5">

@@ -3,11 +3,11 @@ import Link from 'next/link';
 import logo from 'public/images/logo2.png';
 
 const navItems = [
-    { linkText: 'Home', href: '/' },
-    { linkText: 'About Us', href: '' },
-    { linkText: 'Services', href: '' },
-    { linkText: 'Blogs', href: '' },
-    { linkText: 'Contact Us', href: '' },
+    { linkText: 'Home', href: '/#banner' },
+    { linkText: 'Services', href: '/#services' },
+    { linkText: 'About Us', href: '/#About' },
+    { linkText: 'Blogs', href: '/#blogs' },
+    { linkText: 'Contact Us', href: '/#contact' },
 ];
 
 export function Header() {
