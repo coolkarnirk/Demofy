@@ -21,9 +21,9 @@ body {
 }
 
 .hero-section {
-  height: 100vh;
+  height: 70vh;
   width: 100%;
-  background: #000 url("/images/banner.jpg") no-repeat center center;
+  background: url("/images/bg1.jpg");
   background-size: cover;
   position: relative;
   display: -webkit-box;
@@ -36,6 +36,8 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  background-position: 100% 70%;
+  background-repeat: no-repeat;
 }
 
 .hero-section::after {
@@ -47,11 +49,11 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #00000094;
+  background: #00000000;
 }
 
 .hero-section .hero-content {
-  color: #fff;
+  color: #001f3f;
   max-width: 800px;
   z-index: 2;
 }
@@ -60,26 +62,28 @@ body {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 20px;
+  color: #001f3f;
 }
 
 .hero-section .hero-content .hero-subtitle {
   font-size: 1.25rem;
   margin-bottom: 30px;
+  color: #001f3f;
 }
 
 .hero-section .hero-content .hero-btn {
-  background-color: #fff;
+  background-color: #000;
   border: none;
   padding: 12px 30px;
   font-size: 1rem;
   border-radius: 12px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  color: #000;
+  color: #FFF;
 }
 
 .hero-section .hero-content .hero-btn:hover {
-  background-color: #ffffffdc;
+  background-color: #000;
 }
 
 .site-footer {
@@ -195,7 +199,7 @@ body {
 .about-modern-section .about-widgets .widget-box {
   background: #fff;
   border-radius: 10px;
-  padding: 20px 25px;
+  padding: 24px 25px;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   -webkit-box-flex: 1;
@@ -306,7 +310,7 @@ body {
   background: url("/images/market.png") no-repeat center center;
   background-size: cover;
   position: relative;
-  min-height: 100vh;
+  min-height: 75vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

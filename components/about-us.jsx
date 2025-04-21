@@ -9,7 +9,7 @@ export default function AboutUs() {
                     <div className="row align-items-center">
                         {/* Left Content */}
                         <div className="col-md-6 mb-4 mb-md-0">
-                            <div className="shadow bg-white rounded-3 p-4">
+                            <div className="shadow bg-white rounded-3 p-5">
                                 <p className="section-subtitle">ABOUT US</p>
                                 <h2 className="section-title">Our Mission is to Simplify Stock Market Investing</h2>
                                 <p className="section-description">
@@ -33,19 +33,23 @@ export default function AboutUs() {
 
                             <div className="about-widgets d-flex flex-wrap gap-3">
                                 <div className="widget-box">
-                                    <h4>5+</h4>
+                                    <Image src="/images/calendar.png" alt='calender' width={40} height={40} className='img-fluid pb-3' />
+                                    <h4 className='mb-0 fs-1'>5+</h4>
                                     <p>Years in FinTech</p>
                                 </div>
                                 <div className="widget-box">
-                                    <h4>50K+</h4>
+                                    <Image src="/images/trader.png" alt='trader' width={40} height={40} className='img-fluid pb-3' />
+                                    <h4 className='mb-0 fs-1'>50K+</h4>
                                     <p>Active Traders</p>
                                 </div>
                                 <div className="widget-box">
-                                    <h4>99.9%</h4>
+                                    <Image src="/images/accuracy.png" alt='accuracy' width={40} height={40} className='img-fluid pb-3' />
+                                    <h4 className='mb-0 fs-1'>99.9%</h4>
                                     <p>Data Accuracy</p>
                                 </div>
                                 <div className="widget-box">
-                                    <h4>120+</h4>
+                                    <Image src="/images/real-time.png" alt='real-time' width={40} height={40} className='img-fluid pb-3' />
+                                    <h4 className='mb-0 fs-1'>120+</h4>
                                     <p>Real-time Market Feeds</p>
                                 </div>
                             </div>
