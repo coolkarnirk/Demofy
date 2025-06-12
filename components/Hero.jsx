@@ -5,8 +5,8 @@ export default function Hero() {
         <>
             <section className="hero-section position-relative" id='banner'>
                 <div className="hero-content container text-center text-white">
-                    <h1 className="hero-title">Invest Smarter, Grow Faster</h1>
-                    <p className="hero-subtitle">Track the market trends and make informed decisions effortlessly.</p>
+                    <h1 className="hero-title">Investing in Insight. Delivering with Integrity</h1>
+                    <p className="hero-subtitle">Turning financial goals into realities with expert insight and transparent guidance.</p>
                     <button className="btn btn-primary hero-btn">Get Started</button>
                 </div>
 

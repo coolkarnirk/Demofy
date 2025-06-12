@@ -13,8 +13,8 @@ export default function AboutUs() {
                                 <p className="section-subtitle">ABOUT US</p>
                                 <h2 className="section-title">Our Mission is to Simplify Stock Market Investing</h2>
                                 <p className="section-description">
-                                    Founded by a team of analysts, traders, and tech enthusiasts, our platform was created to make investing in the stock market more accessible to everyone.
-                                    We believe in the power of data, education, and simplicity — that's why we built tools that empower investors to make informed decisions with confidence.
+                                    At Dinar Capital Advisors, we strive to be a trusted partner on your journey to financial freedom. 
+                                    Through expert financial planning and disciplined wealth management, we deliver personalized, unbiased advice that transforms goals into actionable outcomes and helps build a secure and prosperous future.
                                 </p>
                             </div>
                         </div>
@@ -34,8 +34,8 @@ export default function AboutUs() {
                             <div className="about-widgets d-flex flex-wrap gap-3">
                                 <div className="widget-box">
                                     <Image src="/images/calendar.png" alt='calender' width={40} height={40} className='img-fluid pb-3' />
-                                    <h4 className='mb-0 fs-1'>5+</h4>
-                                    <p>Years in FinTech</p>
+                                    <h4 className='mb-0 fs-1'>10+</h4>
+                                    <p>Year of experience</p>
                                 </div>
                                 <div className="widget-box">
                                     <Image src="/images/trader.png" alt='trader' width={40} height={40} className='img-fluid pb-3' />
@@ -43,9 +43,9 @@ export default function AboutUs() {
                                     <p>Active Traders</p>
                                 </div>
                                 <div className="widget-box">
-                                    <Image src="/images/accuracy.png" alt='accuracy' width={40} height={40} className='img-fluid pb-3' />
+                                    <Image src="/images/financial-planning.png" alt='accuracy' width={40} height={40} className='img-fluid pb-3' />
                                     <h4 className='mb-0 fs-1'>99.9%</h4>
-                                    <p>Data Accuracy</p>
+                                    <p>End-to-End Financial Solutions</p>
                                 </div>
                                 <div className="widget-box">
                                     <Image src="/images/real-time.png" alt='real-time' width={40} height={40} className='img-fluid pb-3' />
